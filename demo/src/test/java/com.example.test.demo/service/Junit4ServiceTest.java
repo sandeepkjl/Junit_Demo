@@ -26,7 +26,8 @@ public class Junit4ServiceTest {
 
         Mockito.when(helper.sub(10,2)).thenReturn(5);
         int sub=service.getSub(10,2);
-        System.out.println(sub);
 
     }
+
+
 }
