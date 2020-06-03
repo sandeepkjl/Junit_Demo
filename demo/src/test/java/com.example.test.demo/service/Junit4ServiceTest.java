@@ -78,5 +78,4 @@ public class Junit4ServiceTest {
 
     }
 
-
 }
