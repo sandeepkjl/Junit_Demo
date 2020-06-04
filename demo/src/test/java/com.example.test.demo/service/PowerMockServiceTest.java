@@ -120,6 +120,7 @@ public class PowerMockServiceTest {
 
 
         System.out.println(service.getMultiply(7));
+        
     }
 
     @Test
