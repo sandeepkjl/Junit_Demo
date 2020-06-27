@@ -93,7 +93,7 @@ public class PowerMockServiceTest {
     }
 
     @Test
-    public void getMultiplyTest5() throws IOException {
+    public void getMultiplyTest5_1() throws IOException {
 
 
         Mockito.when(helper.getFirstNumber()).thenReturn(8);
