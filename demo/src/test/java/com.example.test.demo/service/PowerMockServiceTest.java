@@ -94,11 +94,12 @@ public class PowerMockServiceTest {
 
     @Test
     public void getMultiplyTest5_1() throws IOException {
-
-
+        System.out.println("testing");
         Mockito.when(helper.getFirstNumber()).thenReturn(8);
 
         PowerMockito.mockStatic(PowerMockDao.class);
+
+        System.out.println("testing");
 
         Mockito.when(PowerMockDao.multiply(8,9)).thenReturn(32);
 
